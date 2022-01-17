@@ -24,15 +24,7 @@ export default class CustomizerPage extends LitElement {
   }
 
   getModules() {
-    return[
-    {
-        "name": "core-custom_nft-customizer",
-        "title": "Custom NFT",
-        "description": "User created NFT with customizable metadata options.",
-        "category": "Non-fungible Tokens",
-        "route": "/core-custom_nft"
-    }
-]; 
+    return[]; 
   }
 
 

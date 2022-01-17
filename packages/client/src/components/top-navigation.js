@@ -34,15 +34,7 @@ export default class TopNavigation extends LitElement {
     ];
 
     // Add Customizer menu only if there are modules
-    let customizableModules = [
-    {
-        "name": "core-custom_nft-customizer",
-        "title": "Custom NFT",
-        "description": "User created NFT with customizable metadata options.",
-        "category": "Non-fungible Tokens",
-        "route": "/core-custom_nft"
-    }
-]; 
+    let customizableModules = []; 
     if (customizableModules.length > 0) {
       staticPages.push({
         name: "customizer",

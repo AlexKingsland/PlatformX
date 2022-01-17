@@ -4,7 +4,7 @@
     "blocks": [
         {
             "category": "access_control",
-            "name": "core-administrator_role",
+            "name": "core-contract_runstate",
             "parameters": {}
         },
         {
@@ -14,24 +14,17 @@
         },
         {
             "category": "access_control",
-            "name": "core-contract_runstate",
+            "name": "core-administrator_role",
             "parameters": {}
         },
         {
             "category": "asset_value_tracking",
             "name": "core-token",
             "parameters": {
-                "symbol": "xcoin",
                 "name": "X-Coin",
+                "symbol": "xcoin",
                 "decimals": "10",
                 "supply": "100000000"
-            }
-        },
-        {
-            "category": "nft",
-            "name": "core-custom_nft",
-            "parameters": {
-                "template": "collectible"
             }
         },
         {

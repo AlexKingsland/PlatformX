@@ -59,13 +59,6 @@ export default class HarnessPage extends LitElement {
         "route": "/core-contract_runstate"
     },
     {
-        "name": "core-custom_nft",
-        "title": "Custom NFT",
-        "description": "User created NFT with customizable metadata options.",
-        "category": "Non-fungible Tokens",
-        "route": "/core-custom_nft"
-    },
-    {
         "name": "core-token",
         "title": "Custom Token",
         "description": "Create a token for tracking value associated with your dapp.",
